@@ -1,1 +1,45 @@
-<h1>Welcome to b141r Homepage</h1>
+<main>
+    <div>
+        <a
+            href="https://github.com/b141r/"
+            target="_blank"
+            rel="noreferrer"
+        >
+            <h1>b141r</h1>
+        </a>
+    </div>
+</main>
+
+<style>
+    :root {
+        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+        font-weight: 400;
+
+        color-scheme: light dark;
+        color: rgba(255, 255, 255, 0.87);
+        background-color: #242424;
+
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    a {
+        font-weight: 500;
+        color: #646cff;
+        text-decoration: inherit;
+    }
+    a:hover {
+        color: #535bf2;
+    }
+
+    h1 {
+        font-size: 3.2em;
+        line-height: 1.1;
+    }
+
+
+</style>
