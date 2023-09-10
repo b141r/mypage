@@ -5,20 +5,31 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.e27d9d0c.js">
+		<link href="./_app/immutable/assets/2.10d00b7d.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.eac1835a.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.b96342cd.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.a1e8a746.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.6db98335.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.ad8d0599.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.0719bd3d.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.a4d6fcb2.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.1b3591cc.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.3bad14ba.js">
+		<style>
+			body {
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-width: 320px;
+				min-height: 100vh;
+			}
+		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <h1 data-svelte-h="svelte-1xwqi93">Welcome to b141r Homepage</h1> 
+		<div style="display: contents" class="felx centent-center">  <main data-svelte-h="svelte-18njom3"><div><a href="https://github.com/b141r/" target="_blank" rel="noreferrer" class="svelte-1uuo0j1"><h1 class="svelte-1uuo0j1">b141r</h1></a></div> </main> 
 			
 			<script>
 				{
-					__sveltekit_9f1uuy = {
+					__sveltekit_swi09n = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -28,8 +39,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.e27d9d0c.js"),
-						import("./_app/immutable/entry/app.a1e8a746.js")
+						import("./_app/immutable/entry/start.eac1835a.js"),
+						import("./_app/immutable/entry/app.ad8d0599.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
